@@ -19,3 +19,11 @@ Clone repo with git submodules or clone and pull down and initialise submodule f
 
     $ git submodule init
     $ git submodule update
+
+### Development
+
+    $ docker-compose build
+
+Builds the `nginx`, `php` and `www` services in `docker-compose.yml`.
+
+
