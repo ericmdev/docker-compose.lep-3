@@ -11,9 +11,8 @@
 - [debian:jessie](https://hub.docker.com/_/debian/)
 
 *Processes*
-- NGINX (1.9.9)
-- PHP-FPM (5.6.14)
-- Data (/srv/www/)
+- nginx (1.9.9)
+- php5-fpm (5.6.14)
 
 ### Clone
 
