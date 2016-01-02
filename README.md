@@ -9,7 +9,13 @@
 - [debian:jessie](https://hub.docker.com/_/debian/)
 
 *Processes*
-- NGINX (ver. 1.9.9)
+- NGINX (1.9.9)
 - PHP-FPM (5.6.14)
 - Data (/srv/www/)
 
+### Clone
+
+Clone repo with git submodules or clone and pull down and initialise submodule files.
+
+    $ git submodule init
+    $ git submodule update
