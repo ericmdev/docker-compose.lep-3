@@ -1,0 +1,9 @@
+[submodule "nginx-fcgi-php"]
+	path = nginx-fcgi-php
+	url = https://github.com/ericmdev/docker.debian-nginx-fcgi-php
+[submodule "srv-www"]
+	path = srv-www
+	url = https://github.com/ericmdev/docker.debian-srv-www.git
+[submodule "php5-fpm"]
+	path = php5-fpm
+	url = https://github.com/ericmdev/docker.debian-php5-fpm.git
