@@ -15,7 +15,7 @@
 
 ### Clone
 
-Clone repo with git submodules or clone and pull down and initialise submodule files.
+Clone repo with submodules or clone and pull down and initialise submodule.
 
     $ git submodule init
     $ git submodule update
