@@ -26,4 +26,8 @@ Clone repo with git submodules or clone and pull down and initialise submodule f
 
 Builds the `nginx`, `php` and `www` services in `docker-compose.yml`.
 
+### Usage
 
+    $ docker-compose up -d
+
+Creates and starts containers.
