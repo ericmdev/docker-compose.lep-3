@@ -31,3 +31,10 @@ Builds the `nginx`, `php` and `www` services in `docker-compose.yml`.
     $ docker-compose up -d
 
 Creates and starts containers.
+
+### Host Mapping
+
+Volumes are mapped to host `./volumes/`.
+- `/var/log`
+- `/var/cache/nginx`
+- `/srv/www/php-app/`
