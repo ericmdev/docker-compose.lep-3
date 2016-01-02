@@ -5,3 +5,6 @@ env:
 
 services:
   - docker
+
+git:
+  submodules: true
