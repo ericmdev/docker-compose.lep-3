@@ -1,0 +1,26 @@
+www:
+    build: srv-www
+    volumes:
+        - ./volumes/srv/www/php-app:/srv/www/php-app
+    tty: true
+
+php:
+    build: php5-fpm
+    expose:
+        - 9009:9000
+    volumes_from:
+        - www
+    volumes:
+        - ./volumes/var/log/:/var/log
+
+nginx:
+    build: nginx-fcgi-php
+    ports:
+        - 8008:80
+    links:
+        - php
+    volumes_from:
+        - www
+    volumes:
+        - ./volumes/var/cache/nginx/:/var/cache/nginx
+        - ./volumes/var/log/nginx/:/var/log/nginx
