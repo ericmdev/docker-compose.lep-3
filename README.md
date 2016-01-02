@@ -1,6 +1,6 @@
 ## Docker: Debian - LEP (3-Tier)
 
-**Docker orchestration** of 3-tier [Debian](https://www.debian.org/) LEP ([Linux](https://www.kernel.org/) [NGINX](https://www.nginx.com/) [PHP](http://php.net/)) stack.
+**Docker orchestration** of [Debian](https://www.debian.org/) LEP ([Linux](https://www.kernel.org/) [NGINX](https://www.nginx.com/) [PHP](http://php.net/)) 3-tier stack.
 
 *Requirements*
 - [Docker](https://www.docker.com/) 
