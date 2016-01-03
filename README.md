@@ -16,7 +16,7 @@
 
 ### Clone
 
-Clone repo into your project with submodules.
+Clone repo with submodules.
 
     $ git clone --recursive <repo> ./docker-compose-lep-3
 
