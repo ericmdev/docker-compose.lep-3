@@ -1,4 +1,4 @@
-## Docker: Debian - LEP (3-Tier)
+## Docker-Compose: Debian - LEP (3-Tier)
 
 [![Build Status](https://travis-ci.org/ericmdev/docker-compose.lep-3.svg?branch=master)](https://travis-ci.org/ericmdev/docker-compose.lep-3)
 
