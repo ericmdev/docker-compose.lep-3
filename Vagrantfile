@@ -11,13 +11,14 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :docker
   config.vm.provision :docker_compose,
+    project_name: docker_config[':yml'],
     yml: docker_config[':yml'],
     rebuild: docker_config[':rebuild'],
     run: docker_config[':run']
 
   nodes_config.each do |node|
-    node_name   = node[0] # name of node
-    node_values = node[1] # content of node
+    node_name   = node[0]
+    node_values = node[1]
 
     config.vm.box = node_values[':box']
     config.vm.box_url = node_values[':box_url']
