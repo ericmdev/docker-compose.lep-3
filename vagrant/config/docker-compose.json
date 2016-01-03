@@ -1,5 +1,5 @@
 {
-  "docker": {
+  "docker-compose": {
     ":project_name": "vagrant",
     ":yml": "/vagrant/docker-compose.yml",
     ":rebuild": false,

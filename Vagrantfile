@@ -3,7 +3,7 @@
 
 # Read JSON configuration files.
 nodes_config = (JSON.parse(File.read("vagrant/config/nodes.json")))['nodes']
-docker_config  = (JSON.parse(File.read("vagrant/config/docker.json")))['docker']
+docker_config  = (JSON.parse(File.read("vagrant/config/docker-compose.json")))['docker-compose']
 
 Vagrant.configure("2") do |config|
 
