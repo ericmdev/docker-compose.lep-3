@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ericmdev/docker.debian-lep-3.svg?branch=master)](https://travis-ci.org/ericmdev/docker.debian-lep-3tier)
 
-**Docker orchestration** of [Debian](https://www.debian.org/) LEP ([Linux](https://www.kernel.org/) [NGINX](https://www.nginx.com/) [PHP](http://php.net/)) 3-tier stack.
+**Docker orchestration** of [Debian](https://www.debian.org/) LEP ([Linux](https://www.kernel.org/) [NGINX](https://www.nginx.com/) [PHP](http://php.net/)) stack (3-tier).
 
 *Requirements*
 - [Docker](https://www.docker.com/)
