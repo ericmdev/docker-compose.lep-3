@@ -39,7 +39,7 @@ Builds the `nginx`, `php` and `www` services in `docker-compose.yml`.
 
 Now visit `192.168.33.61:8008/index.php`.
 
-Vagrantfile uses the [vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose) plugin for Vagrant to bring up containers in `docker-compose.yml` .
+The Vagrantfile uses the [vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose) plugin for Vagrant to bring up containers in `docker-compose.yml` .
 
     $ vagrant plugin install vagrant-docker-compose
 
