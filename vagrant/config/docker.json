@@ -1,0 +1,7 @@
+{
+  "docker": {
+    ":yml": "/vagrant/docker-compose.yml",
+    ":rebuild": false,
+    ":run": "always"
+  }
+}
