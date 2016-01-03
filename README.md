@@ -5,7 +5,7 @@
 **Docker orchestration** of [Debian](https://www.debian.org/) LEP ([Linux](https://www.kernel.org/) [NGINX](https://www.nginx.com/) [PHP](http://php.net/)) 3-tier stack.
 
 *Requirements*
-- [Docker](https://www.docker.com/) 
+- [Docker](https://www.docker.com/)
 
 *Base Docker Image*
 - [debian:jessie](https://hub.docker.com/_/debian/)
@@ -21,17 +21,27 @@ Clone repo with submodules or clone and pull down and initialise submodule.
     $ git submodule init
     $ git submodule update
 
+### Usage
+
+    $ docker-compose up -d
+
+Creates and starts containers.
+
 ### Development
 
     $ docker-compose build
 
 Builds the `nginx`, `php` and `www` services in `docker-compose.yml`.
 
-### Usage
+### Vagrant
 
-    $ docker-compose up -d
+    $ vagrant up
 
-Creates and starts containers.
+Now visit `192.168.33.61:8008/index.php`.
+
+Vagrantfile uses the [vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose) plugin for Vagrant to bring up containers in `docker-compose.yml` .
+
+    $ vagrant plugin install vagrant-docker-compose
 
 ### Host Mapping
 
