@@ -1,6 +1,6 @@
-## Docker: Debian - LEP (3-Tier)
+## Docker-Compose: Debian - LEP (3-Tier)
 
-[![Build Status](https://travis-ci.org/ericmdev/docker.debian-lep-3.svg?branch=master)](https://travis-ci.org/ericmdev/docker.debian-lep-3)
+[![Build Status](https://travis-ci.org/ericmdev/docker-compose.lep-3.svg?branch=master)](https://travis-ci.org/ericmdev/docker-compose.lep-3)
 
 **Docker orchestration** of [Debian](https://www.debian.org/) LEP ([Linux](https://www.kernel.org/) [NGINX](https://www.nginx.com/) [PHP](http://php.net/)) stack (3-tier).
 
@@ -37,7 +37,7 @@ Builds the `nginx`, `php` and `www` services in `docker-compose.yml`.
 
     $ vagrant up
 
-Now visit `192.168.33.61:8008/index.php`.
+Now visit `192.168.33.61/index.php`.
 
 The Vagrantfile uses the [vagrant-docker-compose](https://github.com/leighmcculloch/vagrant-docker-compose) plugin for Vagrant to bring up containers in `docker-compose.yml` .
 
